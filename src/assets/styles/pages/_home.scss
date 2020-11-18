@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// Home page
+// -----------------------------------------------------------------------------
+.custom-bg{
+  background: url("../../images/home/bg.png") no-repeat;
+  background-size: cover;
+}
+
+.bg-dark-light {
+  background: lighten($dark, 5%);
+}
+
+.bg-blue{
+  background: #3859F2;
+}
+
+.reverse-mobile {
+  flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 900px) {
+  .reverse-mobile {
+    flex-direction: initial;
+  }
+}
+
